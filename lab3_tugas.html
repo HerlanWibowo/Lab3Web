@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Form Dropdown Menu dan Listbox dengan Multiple Selection</h1>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Form Mahasiswa</legend>
+            <label for="jenis kelamin">Jenis Kelamin:</label>
+            <select id="jenis kelamin" name="jenis kelamin">
+                <option value="binary">binary</option>
+                <option value="Laki-Laki">Laki-Laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select>
+            
+            <label for="Jurusan">Jurusan:</label>
+            <select id="Jurusan" name="Jurusan" size ="3" multiple>
+                <option value="Teknik Informatika">Teknik Informatika</option>
+                <option value="Teknik Sipil">Teknik Sipil</option>
+                <option value="Teknik Industri">Teknik Industri</option>
+            </select>
+
+            <p><input type="submit" value="Submit"></p>
+        </fieldset>
+    </form>
+</body>
+</html>
