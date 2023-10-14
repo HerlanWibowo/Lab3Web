@@ -10,20 +10,24 @@
         <h1>Form Dropdown Menu dan Listbox dengan Multiple Selection</h1>
     </header>
     <form>
-        <fieldset>
-            <legend>Form Mahasiswa</legend>
+        <fieldset class="1" style="margin-bottom:50px; padding-bottom:90px;">
+            <legend>Dropdown Menu</legend>
             <label for="jenis kelamin">Jenis Kelamin:</label>
             <select id="jenis kelamin" name="jenis kelamin">
-                <option value="binary">binary</option>
                 <option value="Laki-Laki">Laki-Laki</option>
                 <option value="Perempuan">Perempuan</option>
             </select>
-            
+        </fieldset>
+
+        <fieldset class="2">
+            <legend>Listbox</legend>
             <label for="Jurusan">Jurusan:</label>
             <select id="Jurusan" name="Jurusan" size ="3" multiple>
                 <option value="Teknik Informatika">Teknik Informatika</option>
                 <option value="Teknik Sipil">Teknik Sipil</option>
                 <option value="Teknik Industri">Teknik Industri</option>
+                <option value="Teknik Industri">Teknik Mesin</option>
+                <option value="Teknik Industri">Teknik Elektro</option>
             </select>
 
             <p><input type="submit" value="Submit"></p>
